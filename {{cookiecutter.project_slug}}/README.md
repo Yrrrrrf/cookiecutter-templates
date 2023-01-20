@@ -14,5 +14,5 @@
 
 ### License
 
-This project is licensed under the terms of the [GNU General Public License v3.0 ](LICENSE).
+This project is licensed under the terms of the [{{cookiecutter.open_source_license}}](LICENSE.md).
 

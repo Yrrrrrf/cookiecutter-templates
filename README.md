@@ -2,9 +2,10 @@
 
 This is a cookiecutter template for creating a new app using [python](https://www.python.org/) & [js](https://www.javascript.com/).
 
-### Requirements
-- [python 3.9+](https://www.python.org/)
-
+### Create App Template
+```
+cookiecutter https://github.com/Yrrrrrf/cookiecutter-templates --checkout app
+```
 
 ### Generated Project Structure
 ```
@@ -14,7 +15,7 @@ This is a cookiecutter template for creating a new app using [python](https://ww
 │   README.md
 │   requirements.txt
 ├───logs
-│       {{cookiecutter.project_name}}.ipynb
+│       project_name.ipynb
 ├───resources
 │   ├───audio
 │   ├───img
