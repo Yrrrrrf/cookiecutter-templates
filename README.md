@@ -2,22 +2,25 @@
 
 This repository contains a collection of cookiecutter templates for various projects.
 
-## Install [cookiecutter](https://cookiecutter.readthedocs.io/en/latest/)
-
-```bash
-pip install cookiecutter
+### Create App Template
+```
+cookiecutter https://github.com/Yrrrrrf/cookiecutter-templates --checkout data_science
 ```
 
-
-## Usage
-To use a template, run the following command:
-
+### Generated Project Structure
 ```bash
-cookiecutter <repository-url> --checkout <branch-name>  # branch is optional
+project_name/  # root directory
+│   .gitignore
+│   LICENSE.md  # https://choosealicense.com/
+│   README.md  # this file
+│   requirements.txt  # pip freeze > requirements.txt
+├───data/  # data files (not to be committed to git)
+│   ├───raw/  # raw data files
+│   └───processed/  # processed data files
+├───src/  # source files
+│   ├───config/  # config files
+│   └───main.py  # main entry point
+├───notebooks/  # jupyter notebooks (exploratory analysis, etc.)
+├───reports/  # reports (final reports, presentations, etc.)
+└───tests/  # tests (unit, functional, etc.)
 ```
-
-## Templates
-- [app](https://github.com/Yrrrrrf/cookiecutter-templates/tree/app)
-- data science
-- web (soon)
-- Python package (soon)
