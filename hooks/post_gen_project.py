@@ -75,8 +75,7 @@ if __name__ == '__main__':
     '''
     This is the entry point of the script.
     '''
-    # main()
+    main()  # run the main function
 
     license_url = 'https://choosealicense.com/licenses/' + license_link[license]  # get the license url
-
     asyncio.run(__get_license(license_url))  # run the main function
