@@ -1,5 +1,5 @@
-ipykernel==6.20.2  # jupyter kernel for python
-# ipykernel dependencies...
+# pip install -r requirements.txt
+ipykernel==6.20.2  # jupyter kernel for python (and it's dependencies)
 asttokens==2.2.1
 backcall==0.2.0
 colorama==0.4.6

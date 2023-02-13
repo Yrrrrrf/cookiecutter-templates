@@ -6,6 +6,7 @@
 
 {{cookiecutter.project_short_description}}
 
+
 ## Setup
 
 - First make sure you have the latest pip installed: `python -m pip install --upgrade pip`
@@ -36,7 +37,7 @@ project_name/  # root directory
 ├───tests/  # tests (unit, functional, etc.)
 ```
 
+
 ## License
 
 This project is licensed under the terms of the [{{cookiecutter.open_source_license}}](LICENSE.md).
-

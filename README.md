@@ -1,13 +1,15 @@
-# cookiecutter templates
+# Data Science Project Template
 
-This repository contains a collection of cookiecutter templates for various projects.
+This template is thinked for data science projects.
 
-### Create App Template
+It includes a directory structure that allow you to organize your project in a way that is easy to understand and maintain.
+
+## Create App Template
 ```
 cookiecutter https://github.com/Yrrrrrf/cookiecutter-templates --checkout data_science
 ```
 
-### Generated Project Structure
+## Generated Project Structure
 ```bash
 project_name/  # root directory
 │   .gitignore
@@ -24,3 +26,4 @@ project_name/  # root directory
 ├───reports/  # reports (final reports, presentations, etc.)
 └───tests/  # tests (unit, functional, etc.)
 ```
+

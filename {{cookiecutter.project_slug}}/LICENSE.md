@@ -1,3 +1,0 @@
-# replace the following with your own license...
-
-{{cookiecutter.open_source_license}} license

@@ -2,7 +2,6 @@
     "project_name": "project name",
     "project_slug": "{{cookiecutter.project_name.lower().replace(' ', '_').replace('-', '_')}}",
     "project_short_description": "short description",
-    "open_source_license": ["MIT license", "BSD license", "ISC license", "Apache Software License 2.0", "GNU General Public License v3", "Not open source"],
-    "author_name": "your name",
-    "python_version": ["3.7", "3.8", "3.9", "3.10", "3.11"]
+    "open_source_license": ["MIT License", "BSD license", "Apache 2.0", "GPL v3", "Not open source"],
+    "author_name": "your name"
 }
