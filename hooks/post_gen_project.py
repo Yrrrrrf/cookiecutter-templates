@@ -60,7 +60,7 @@ def main() -> None:
 
     # dependencies
     # subprocess.run(['pip', 'install', '-r', 'requirements.txt'])  # read the requirements.txt file and install the dependencies
-    subprocess.run(['find', '.', '-name', '*.gitkeep', '-delete'])  # find all .gitkeep files and delete them
+    # subprocess.run(['find', '.', '-name', '*.gitkeep', '-delete'])  # find all .gitkeep files and delete them
 
     # repository
     subprocess.run(['git', 'init'])  # initialize the repository
