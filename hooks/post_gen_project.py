@@ -54,12 +54,12 @@ def main() -> None:
     '''
     # create .venv folder and activate it
     subprocess.run(['python', '-m', 'venv', '.venv'])
-    subprocess.run(['source', '.venv\\Scripts\\activate'])  # bash
+    # subprocess.run(['source', '.venv\\Scripts\\activate'])  # bash
     # subprocess.run(['pip', 'install', '--upgrade', 'pip'])  # upgrade pip
     # subprocess.run(['.venv\\Scripts\\activate.ps1'])  # powershell
 
     # dependencies
-    subprocess.run(['pip', 'install', '-r', 'requirements.txt'])  # read the requirements.txt file and install the dependencies
+    # subprocess.run(['pip', 'install', '-r', 'requirements.txt'])  # read the requirements.txt file and install the dependencies
     subprocess.run(['find', '.', '-name', '*.gitkeep', '-delete'])  # find all .gitkeep files and delete them
 
     # repository
@@ -75,8 +75,7 @@ if __name__ == '__main__':
     '''
     This is the entry point of the script.
     '''
-    # main()
+    # main()  # run the main function
 
     license_url = 'https://choosealicense.com/licenses/' + license_link[license]  # get the license url
-
     asyncio.run(__get_license(license_url))  # run the main function
