@@ -1,0 +1,25 @@
+[package]
+# name = "{{cookiecutter.project_slug}}"
+name = "aaa"
+version = "0.1.0"
+edition = "2021"
+authors = ["{{cookiecutter.author_name}}"]
+
+
+# [[bin]]
+# # cargo run --bin dev_main
+# name = "dev"
+# path = "src/main_dev.rs"
+
+
+[profile.dev]
+opt-level = 1  # Optimize for speed in debug mode
+
+
+[profile.dev.package."*"]
+opt-level = 3  # Optimize all dependencies in debug mode
+
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
