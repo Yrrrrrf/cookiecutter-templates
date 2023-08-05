@@ -6,16 +6,18 @@
 {{cookiecutter.project_short_description}}
 
 ## Setup
-- Use `cargo build` to build the project
-To run the project, use the command 
-```rust
-cargo run  // run main 
-```
+This is a simple template for a python project with a pygame app setup.
+Create the environment with:
 
-## Development
-- [rust](https://www.rust-lang.org/) as programming language
-- [cargo](https://doc.rust-lang.org/cargo/) as build system and package manager
-- [bevy](https://bevyengine.org/) as game engine (for the GUI).
+```bash
+conda env create -f environment.yml
+# or
+conda env create -f environment.yml -n {{cookiecutter.project_slug}}
+# or create a new environment with .venv
+python -m venv .venv
+pip install -r requirements.txt
+python activate .venv/bin/activate  # or .venv\Scripts\activate.bat on windows
+```
 
 ----
 ## [License](LICENSE.md)
